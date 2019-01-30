@@ -7,3 +7,18 @@ $grandresult = foreach($service in $result.groups){
 }
 
 $grandresult.Count
+
+$result.groups
+
+$result | ConvertTo-Json
+
+{
+    "prtg": {
+      "result": [
+        {
+          "channel": "Mail and Phones" ,
+          "value": $.groups[0].status_name
+        },
+      ]
+    }
+  }
