@@ -1,0 +1,32 @@
+﻿{
+    "prtg": {
+      "result": 
+[
+    {
+        "channel":  "Administrative Systems",
+        "ValueLookup":  "OxfordStatusLookup",
+        "value":  $.groups[2].status_code
+    },
+    {
+        "channel":  "DARS",
+        "ValueLookup":  "OxfordStatusLookup",
+        "value":  $.groups[2].services[0].status_code
+    },
+    {
+        "channel":  "SharePoint",
+        "ValueLookup":  "OxfordStatusLookup",
+        "value":  $.groups[2].services[1].status_code
+    },
+    {
+        "channel":  "University Main Website",
+        "ValueLookup":  "OxfordStatusLookup",
+        "value":  $.groups[2].services[2].status_code
+    },
+    {
+        "channel":  "HRIS (Human Resources Information Systems)",
+        "ValueLookup":  "OxfordStatusLookup",
+        "value":  $.groups[2].services[3].status_code
+    }
+]    }
+}
+

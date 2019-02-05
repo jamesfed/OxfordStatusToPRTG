@@ -1,0 +1,27 @@
+﻿{
+    "prtg": {
+      "result": 
+[
+    {
+        "channel":  "Desktops and Devices",
+        "ValueLookup":  "OxfordStatusLookup",
+        "value":  $.groups[4].status_code
+    },
+    {
+        "channel":  "CONNECT",
+        "ValueLookup":  "OxfordStatusLookup",
+        "value":  $.groups[4].services[0].status_code
+    },
+    {
+        "channel":  "Mac Managed Desktop Services",
+        "ValueLookup":  "OxfordStatusLookup",
+        "value":  $.groups[4].services[1].status_code
+    },
+    {
+        "channel":  "Mobile Oxford",
+        "ValueLookup":  "OxfordStatusLookup",
+        "value":  $.groups[4].services[2].status_code
+    }
+]    }
+}
+

@@ -1,0 +1,47 @@
+﻿{
+    "prtg": {
+      "result": 
+[
+    {
+        "channel":  "Network connectivity",
+        "ValueLookup":  "OxfordStatusLookup",
+        "value":  $.groups[1].status_code
+    },
+    {
+        "channel":  "Registration",
+        "ValueLookup":  "OxfordStatusLookup",
+        "value":  $.groups[1].services[0].status_code
+    },
+    {
+        "channel":  "Internet link",
+        "ValueLookup":  "OxfordStatusLookup",
+        "value":  $.groups[1].services[1].status_code
+    },
+    {
+        "channel":  "eduroam WiFi",
+        "ValueLookup":  "OxfordStatusLookup",
+        "value":  $.groups[1].services[2].status_code
+    },
+    {
+        "channel":  "Oxford Wireless LAN",
+        "ValueLookup":  "OxfordStatusLookup",
+        "value":  $.groups[1].services[3].status_code
+    },
+    {
+        "channel":  "Public Wifi (The Cloud)",
+        "ValueLookup":  "OxfordStatusLookup",
+        "value":  $.groups[1].services[4].status_code
+    },
+    {
+        "channel":  "Virtual Private Network",
+        "ValueLookup":  "OxfordStatusLookup",
+        "value":  $.groups[1].services[5].status_code
+    },
+    {
+        "channel":  "Graduate Accommodation ResNet",
+        "ValueLookup":  "OxfordStatusLookup",
+        "value":  $.groups[1].services[6].status_code
+    }
+]    }
+}
+

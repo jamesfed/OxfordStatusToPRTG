@@ -1,0 +1,52 @@
+﻿{
+    "prtg": {
+      "result": 
+[
+    {
+        "channel":  "Weblearn",
+        "ValueLookup":  "OxfordStatusLookup",
+        "value":  $.groups[5].status_code
+    },
+    {
+        "channel":  "Node 0",
+        "ValueLookup":  "OxfordStatusLookup",
+        "value":  $.groups[5].services[0].status_code
+    },
+    {
+        "channel":  "Node 1",
+        "ValueLookup":  "OxfordStatusLookup",
+        "value":  $.groups[5].services[1].status_code
+    },
+    {
+        "channel":  "Node 2",
+        "ValueLookup":  "OxfordStatusLookup",
+        "value":  $.groups[5].services[2].status_code
+    },
+    {
+        "channel":  "Node 3",
+        "ValueLookup":  "OxfordStatusLookup",
+        "value":  $.groups[5].services[3].status_code
+    },
+    {
+        "channel":  "Node 4",
+        "ValueLookup":  "OxfordStatusLookup",
+        "value":  $.groups[5].services[4].status_code
+    },
+    {
+        "channel":  "Node 5",
+        "ValueLookup":  "OxfordStatusLookup",
+        "value":  $.groups[5].services[5].status_code
+    },
+    {
+        "channel":  "Node 6",
+        "ValueLookup":  "OxfordStatusLookup",
+        "value":  $.groups[5].services[6].status_code
+    },
+    {
+        "channel":  "Node 7",
+        "ValueLookup":  "OxfordStatusLookup",
+        "value":  $.groups[5].services[7].status_code
+    }
+]    }
+}
+

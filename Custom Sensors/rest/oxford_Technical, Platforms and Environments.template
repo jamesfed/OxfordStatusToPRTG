@@ -1,0 +1,82 @@
+﻿{
+    "prtg": {
+      "result": 
+[
+    {
+        "channel":  "Technical, Platforms and Environments",
+        "ValueLookup":  "OxfordStatusLookup",
+        "value":  $.groups[6].status_code
+    },
+    {
+        "channel":  "SMTP",
+        "ValueLookup":  "OxfordStatusLookup",
+        "value":  $.groups[6].services[0].status_code
+    },
+    {
+        "channel":  "DHCP",
+        "ValueLookup":  "OxfordStatusLookup",
+        "value":  $.groups[6].services[1].status_code
+    },
+    {
+        "channel":  "DNS",
+        "ValueLookup":  "OxfordStatusLookup",
+        "value":  $.groups[6].services[2].status_code
+    },
+    {
+        "channel":  "Login Services",
+        "ValueLookup":  "OxfordStatusLookup",
+        "value":  $.groups[6].services[3].status_code
+    },
+    {
+        "channel":  "Virtual Machine for Rent",
+        "ValueLookup":  "OxfordStatusLookup",
+        "value":  $.groups[6].services[4].status_code
+    },
+    {
+        "channel":  "Managed Virtual Infrastructure",
+        "ValueLookup":  "OxfordStatusLookup",
+        "value":  $.groups[6].services[5].status_code
+    },
+    {
+        "channel":  "Linux Web Hosting",
+        "ValueLookup":  "OxfordStatusLookup",
+        "value":  $.groups[6].services[6].status_code
+    },
+    {
+        "channel":  "Windows Web Hosting",
+        "ValueLookup":  "OxfordStatusLookup",
+        "value":  $.groups[6].services[7].status_code
+    },
+    {
+        "channel":  "FTP",
+        "ValueLookup":  "OxfordStatusLookup",
+        "value":  $.groups[6].services[8].status_code
+    },
+    {
+        "channel":  "NTP Time Servers",
+        "ValueLookup":  "OxfordStatusLookup",
+        "value":  $.groups[6].services[9].status_code
+    },
+    {
+        "channel":  "OxFile",
+        "ValueLookup":  "OxfordStatusLookup",
+        "value":  $.groups[6].services[10].status_code
+    },
+    {
+        "channel":  "ITSS Software downloads",
+        "ValueLookup":  "OxfordStatusLookup",
+        "value":  $.groups[6].services[11].status_code
+    },
+    {
+        "channel":  "Mosaic",
+        "ValueLookup":  "OxfordStatusLookup",
+        "value":  $.groups[6].services[12].status_code
+    },
+    {
+        "channel":  "Login Services - Shibboleth",
+        "ValueLookup":  "OxfordStatusLookup",
+        "value":  $.groups[6].services[13].status_code
+    }
+]    }
+}
+

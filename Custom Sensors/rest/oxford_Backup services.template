@@ -1,0 +1,87 @@
+﻿{
+    "prtg": {
+      "result": 
+[
+    {
+        "channel":  "Backup services",
+        "ValueLookup":  "OxfordStatusLookup",
+        "value":  $.groups[3].status_code
+    },
+    {
+        "channel":  "OX_HFS (archive)",
+        "ValueLookup":  "OxfordStatusLookup",
+        "value":  $.groups[3].services[0].status_code
+    },
+    {
+        "channel":  "OX_HFS_B1 (desktop backup)",
+        "ValueLookup":  "OxfordStatusLookup",
+        "value":  $.groups[3].services[1].status_code
+    },
+    {
+        "channel":  "OX_HFS_B2 (server backup)",
+        "ValueLookup":  "OxfordStatusLookup",
+        "value":  $.groups[3].services[2].status_code
+    },
+    {
+        "channel":  "OX_HFS_B3 (desktop backup)",
+        "ValueLookup":  "OxfordStatusLookup",
+        "value":  $.groups[3].services[3].status_code
+    },
+    {
+        "channel":  "OX_HFS_B4 (server backup)",
+        "ValueLookup":  "OxfordStatusLookup",
+        "value":  $.groups[3].services[4].status_code
+    },
+    {
+        "channel":  "OX_HFS_B5 (desktop backup)",
+        "ValueLookup":  "OxfordStatusLookup",
+        "value":  $.groups[3].services[5].status_code
+    },
+    {
+        "channel":  "OX_HFS_B6 (large server backup)",
+        "ValueLookup":  "OxfordStatusLookup",
+        "value":  $.groups[3].services[6].status_code
+    },
+    {
+        "channel":  "OX_HFS_B7 (desktop backup)",
+        "ValueLookup":  "OxfordStatusLookup",
+        "value":  $.groups[3].services[7].status_code
+    },
+    {
+        "channel":  "OX_HFS_B8 (server backup)",
+        "ValueLookup":  "OxfordStatusLookup",
+        "value":  $.groups[3].services[8].status_code
+    },
+    {
+        "channel":  "OX_HFS_B10 (server backup)",
+        "ValueLookup":  "OxfordStatusLookup",
+        "value":  $.groups[3].services[9].status_code
+    },
+    {
+        "channel":  "OX_HFS_B12 (large server backup)",
+        "ValueLookup":  "OxfordStatusLookup",
+        "value":  $.groups[3].services[10].status_code
+    },
+    {
+        "channel":  "OX_HFS_B14 (server backup)",
+        "ValueLookup":  "OxfordStatusLookup",
+        "value":  $.groups[3].services[11].status_code
+    },
+    {
+        "channel":  "OX_HFS_DD1 (TSM for VE)",
+        "ValueLookup":  "OxfordStatusLookup",
+        "value":  $.groups[3].services[12].status_code
+    },
+    {
+        "channel":  "OX_HFS_DD2 (TSM for VE)",
+        "ValueLookup":  "OxfordStatusLookup",
+        "value":  $.groups[3].services[13].status_code
+    },
+    {
+        "channel":  "OX_HFS_DD3 (TSM for VE)",
+        "ValueLookup":  "OxfordStatusLookup",
+        "value":  $.groups[3].services[14].status_code
+    }
+]    }
+}
+

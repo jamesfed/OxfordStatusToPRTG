@@ -1,0 +1,82 @@
+﻿{
+    "prtg": {
+      "result": 
+[
+    {
+        "channel":  "Mail and Phones",
+        "ValueLookup":  "OxfordStatusLookup",
+        "value":  $.groups[0].status_code
+    },
+    {
+        "channel":  "Nexus365",
+        "ValueLookup":  "OxfordStatusLookup",
+        "value":  $.groups[0].services[0].status_code
+    },
+    {
+        "channel":  "Nexus Outlook",
+        "ValueLookup":  "OxfordStatusLookup",
+        "value":  $.groups[0].services[1].status_code
+    },
+    {
+        "channel":  "Nexus ActiveSync",
+        "ValueLookup":  "OxfordStatusLookup",
+        "value":  $.groups[0].services[2].status_code
+    },
+    {
+        "channel":  "Nexus IMAP",
+        "ValueLookup":  "OxfordStatusLookup",
+        "value":  $.groups[0].services[3].status_code
+    },
+    {
+        "channel":  "Nexus Outlook Web App",
+        "ValueLookup":  "OxfordStatusLookup",
+        "value":  $.groups[0].services[4].status_code
+    },
+    {
+        "channel":  "Mailing Lists",
+        "ValueLookup":  "OxfordStatusLookup",
+        "value":  $.groups[0].services[5].status_code
+    },
+    {
+        "channel":  "Chorus Contact Centre",
+        "ValueLookup":  "OxfordStatusLookup",
+        "value":  $.groups[0].services[6].status_code
+    },
+    {
+        "channel":  "Chorus Desk Phones",
+        "ValueLookup":  "OxfordStatusLookup",
+        "value":  $.groups[0].services[7].status_code
+    },
+    {
+        "channel":  "Chorus Phoneman",
+        "ValueLookup":  "OxfordStatusLookup",
+        "value":  $.groups[0].services[8].status_code
+    },
+    {
+        "channel":  "Chorus Softphones",
+        "ValueLookup":  "OxfordStatusLookup",
+        "value":  $.groups[0].services[9].status_code
+    },
+    {
+        "channel":  "Chorus Voicemail",
+        "ValueLookup":  "OxfordStatusLookup",
+        "value":  $.groups[0].services[10].status_code
+    },
+    {
+        "channel":  "Chorus Videoconferencing",
+        "ValueLookup":  "OxfordStatusLookup",
+        "value":  $.groups[0].services[11].status_code
+    },
+    {
+        "channel":  "Chorus Web Collaboration",
+        "ValueLookup":  "OxfordStatusLookup",
+        "value":  $.groups[0].services[12].status_code
+    },
+    {
+        "channel":  "Chorus Web Portal",
+        "ValueLookup":  "OxfordStatusLookup",
+        "value":  $.groups[0].services[13].status_code
+    }
+]    }
+}
+
