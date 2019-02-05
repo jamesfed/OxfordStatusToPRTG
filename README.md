@@ -7,7 +7,7 @@ This project was created by James Preston of AN Security to demonstrate the usef
 1. Clone or download as a ZIP the source.
 2. Copy/paste the folders **Custom Sensors** and **lookups** into the root of your PRTG install (typically C:\Program Files (x86)\PRTG Network Monitor).
 3. Login to your PRTG install and head to **Setup > Administrative Tools** (you will be asked to login with admin credentials again) and click Go! next to **Load Lookups and File Lists**
-4. Create a new Device in PRTG (no auto discovery required) with the **hostname status.it.ox.ac.uk**
+4. Create a new Device in PRTG (no auto discovery required) with the hostname **status.it.ox.ac.uk**
 5. Each service group will need adding individually as PRTG will only allow 50 channels per sensor, click **Add Sensor**
 6. Select the **REST Custom BETA** (hopefully this feature will be out of BETA soon!)
 7. See the Useful lists > Service groups section for a list of the service names (e.g. Administrative Systems), enter the first service name into the **Sensor Name** box
