@@ -25,5 +25,3 @@ This project will read the University of Oxford Status API and digest it into PR
 * Network connectivity
 * Technical, Platforms and Environments
 * Weblearn
-
-## Q and A
