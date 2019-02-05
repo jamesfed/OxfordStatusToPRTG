@@ -1,5 +1,7 @@
 # OxfordStatusToPRTG
-This project will read the University of Oxford Status API and digest it into PRTG Network Monitor
+This project will read the University of Oxford Status API and digest it into PRTG Network Monitor.
+
+This project was created by James Preston of AN Security to demonstrate the usefulness of the REST Custom sensor in PRTG; if you are looking for support in deploying PRTG (or just in need of a licence renewal or upgrade) get in touch with us at - https://www.ansecurity.com/contact.
 
 ## Getting the files into your PRTG install
 1. Clone or download as a ZIP the source.
